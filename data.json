@@ -1,0 +1,63 @@
+{
+  "authors": [
+    {
+      "birthdate": "1995-01-01",
+      "country": "Bolivia",
+      "email": "alejo@example.com",
+      "firstName": "Luis",
+      "id": 1,
+      "lastName": "Alejo"
+    },
+    {
+      "birthdate": "1996-11-21",
+      "country": "Bolivia",
+      "email": "condori@example.com",
+      "firstName": "Bernardo",
+      "id": 2,
+      "lastName": "Condori"
+    }
+  ],
+  "blogs": [
+    {
+      "allowComments": false,
+      "authorId": 1,
+      "comments": [
+        {
+          "authorCountry": "Argentina",
+          "authorEmail": "carlos@example.com",
+          "authorName": "Carlos",
+          "blogId": 1,
+          "content": "Muy buen blog!",
+          "id": 1,
+          "rating": 9
+        },
+        {
+          "authorCountry": "Peru",
+          "authorEmail": "juan@example.com",
+          "authorName": "Juan",
+          "blogId": 1,
+          "content": "Muy mal blog!",
+          "id": 2,
+          "rating": 1
+        },
+        {
+          "authorEmail": "carlos@example.com",
+          "authorCountry": "Argentina",
+          "authorName": "Carlos",
+          "rating": 7,
+          "id": 3,
+          "blogId": 1,
+          "content": "buena mejora del blog"
+        }
+      ],
+      "id": 1,
+      "periodicity": "DIARIA",
+      "theme": "Tecnología",
+      "title": "Mi primer blog",
+      "updateHistory": [
+        {
+          "blogId": 1,
+          "updateDate": "2025-02-18T21:38:21.7985954",
+          "updatedContent": "mejora del blog, algunas tecnologias encontradas DTO"
+        }]}]
+}
